@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">HighArt Apps</string>
+    <string name="about">ABOUT</string>
+    <string name="about_description">Boutique development team with a focus on designing mobile solutions for small to medium sized organizations.</string>
+    <string name="Logodescrip">This is the company logo</string>
+    <string name="contact">CONTACT</string>
+    <string name="hours">&#8226; Monday &#45; Friday \n  9:00AM &#45; 5:00PM</string>
+    <string name="phone">&#8226; 917&#45;362&#45;1159</string>
+    <string name="email">&#8226; info@highartapps.com</string>
+    <string name="website">&#8226; Highartapps.com</string>
+    <string name="philosophy">PHILOSOPHY</string>
+    <string name="philosophy_description">Artistic applications with a high emphasis on beauty and functionality. </string>
+    <string name="solutions">SOLUTIONS</string>
+    <string name="solutions_description">&#8226; Schools\n&#8226; Churches\n&#8226; Businesses\n&#8226; Restaurants\n&#8226; Real Estate</string>
+</resources>

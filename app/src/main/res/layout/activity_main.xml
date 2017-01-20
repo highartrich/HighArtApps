@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.highartapps.android.highartapps.MainActivity">
+
+    <ImageView
+        android:contentDescription="@string/Logodescrip"
+        android:layout_width="800dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:id="@+id/logo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about"
+        android:textStyle="bold"
+        android:id="@+id/about"
+        android:textColor="#01579B"
+        android:layout_below="@+id/logo"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/website"
+        android:id="@+id/website"
+        android:textColor="#0277BD"
+        android:layout_below="@+id/email"
+        android:paddingStart="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/philosophy"
+        android:textStyle="bold"
+        android:id="@+id/philosophy"
+        android:textColor="#01579B"
+        android:layout_below="@+id/about_description"
+        android:paddingTop="8dp"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/solutions"
+        android:textStyle="bold"
+        android:textColor="#01579B"
+        android:id="@+id/solutions"
+        android:layout_below="@+id/philosophy_description"
+        android:paddingTop="8dp"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:text="@string/solutions_description"
+        android:id="@+id/solutions_description"
+        android:textColor="#0277BD"
+        android:layout_below="@+id/solutions"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="8dp"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/philosophy_description"
+        android:id="@+id/philosophy_description"
+        android:textColor="#0277BD"
+        android:paddingTop="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_below="@+id/philosophy"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/screenshot"
+        android:layout_alignRight="@+id/website"
+        android:layout_alignEnd="@+id/website" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_description"
+        android:id="@+id/about_description"
+        android:textColor="#0277BD"
+        android:paddingTop="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_below="@+id/about"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact"
+        android:textStyle="bold"
+        android:id="@+id/contact"
+        android:textColor="#01579B"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_below="@+id/solutions_description"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone"
+        android:id="@+id/phone"
+        android:textColor="#0277BD"
+        android:paddingStart="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_below="@+id/hours"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hours"
+        android:id="@+id/hours"
+        android:textColor="#0277BD"
+        android:paddingStart="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_below="@+id/contact"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:id="@+id/email"
+        android:textColor="#0277BD"
+        android:paddingStart="5dp"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/phone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="350dp"
+        android:src="@drawable/screenshot"
+        android:id="@+id/screenshot"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_alignTop="@+id/philosophy_description"
+        android:layout_toRightOf="@+id/email"
+        android:layout_toEndOf="@+id/email" />
+
+</RelativeLayout>
+</ScrollView>
